@@ -1,17 +1,17 @@
-# BlinkID SDK wrapper for PhoneGap
+# BlinkID SDK wrapper for Cordova
 
-This repository contains example wrapper for BlinkID native SDKs ([iOS](https://github.com/BlinkID/blinkid-ios) and [Android](https://github.com/BlinkID/blinkid-android)). Not all features of native SDKs are available in PhoneGap wrapper. However, the wrapper is open source, so you can easily add features that you need. For 100% of features and maximum control, consider using native SDKs.
+This repository contains example wrapper for BlinkID native SDKs ([iOS](https://github.com/BlinkID/blinkid-ios) and [Android](https://github.com/BlinkID/blinkid-android)). Not all features of native SDKs are available in Cordova wrapper. However, the wrapper is open source, so you can easily add features that you need. For 100% of features and maximum control, consider using native SDKs.
 
 ## Cordova version
-BlinkID PhoneGap requires Cordova **v7.0.0 or later** and cordova-android plugin **v7.0.0 or later**.
+BlinkID Cordova requires Cordova **v7.0.0 or later** and cordova-android plugin **v8.0.0 or later**.
 
 ## Ionic version
 
 Latest version has been tested using Ionic **3.19.0** version.
 
-## Adding blinkid-phonegap to your application
+## Adding blinkid-cordova to your application
 
-You can add blinkid-phonegap by cloning the repository and following instructions below or by running
+You can add blinkid-cordova by cloning the repository and following instructions below or by running
 
 ```shell
 cordova plugin add blinkid-cordova
@@ -25,6 +25,7 @@ In the repository you will find scripts to create sample applications.
 Downloading a repository just downloads the files from the most recent commit of the default branch but without all the dependencies which are in submodules. We recommend that you clone directory. With a clone option you will get a copy of the history and it’s functional git repository.
 
 To clone repository:
+
 + **Copy URL from the `Clone or download` button: https://github.com/BlinkID/blinkid-phonegap.git**
 + **Open terminal on Mac/Linux or [GitBash](https://git-for-windows.github.io/) on Windows.**
 + **cd into directory where you want the cloned directory to be made.**
