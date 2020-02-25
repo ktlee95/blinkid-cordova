@@ -29,13 +29,7 @@
         @"immigrantCaseNumber" : mrzResult.immigrantCaseNumber,
         @"mrzText" : mrzResult.mrzText,
         @"mrzParsed" : [NSNumber numberWithBool:mrzResult.isParsed],
-        @"mrzVerified" : [NSNumber numberWithBool:mrzResult.isVerified],
-        @"sanitizedOpt1" : mrzResult.sanitizedOpt1,
-        @"sanitizedOpt2" : mrzResult.sanitizedOpt2,
-        @"sanitizedNationality" : mrzResult.sanitizedNationality,
-        @"sanitizedIssuer" : mrzResult.sanitizedIssuer,
-        @"sanitizedDocumentCode" : mrzResult.sanitizedDocumentCode,
-        @"sanitizedDocumentNumber" : mrzResult.sanitizedDocumentNumber
+        @"mrzVerified" : [NSNumber numberWithBool:mrzResult.isVerified]
      };
 }
 
